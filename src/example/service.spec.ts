@@ -1,5 +1,5 @@
-import {assert} from "chai";
-import service from "./service";
+import {assert} from 'chai';
+import service from './service';
 
 describe('Example service', () => {
   describe('#hello()', () => {

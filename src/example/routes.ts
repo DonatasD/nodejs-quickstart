@@ -4,7 +4,7 @@ import express from 'express';
 const router = express.Router();
 
 router
-    .route('/example/hello')
+    .route('/')
     .get((req, res) => res.send(service.hello()));
 
 export default router;
