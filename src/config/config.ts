@@ -13,8 +13,7 @@ if (fs.existsSync('.env')) {
 
 const config = {
   env: (process.env.NODE_ENV as Env) || Env.Development,
-  port: (process.env.PORT) || DEFAULT_PORT,
+  port: process.env.PORT || DEFAULT_PORT,
 };
 
 export default config;
-
